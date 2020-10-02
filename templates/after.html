@@ -1,0 +1,43 @@
+<html>
+
+<body bgcolor=#d4a3ae>
+
+    <center>
+
+        <h1> PREDICTION : </h1>
+
+        {%if data == 0%}
+        <h1>You are Extremely Weak.</h1>
+        <img src='static\flower1.jpg'>
+
+        {%elif data == 1%}
+        <h1>You Are Weak</h1>
+        <img src='static\flower1.jpg'>
+
+        {%elif data == 2%}
+        <h1>You are Normal.</h1>
+        <img src='static\flower1.jpg'>
+
+        {%elif data == 3%}
+        <h1>You are Overweight.</h1>
+        <img src='static\flower1.jpg'>
+
+        {%elif data == 4%}
+        <h1>You're Obesity increases.</h1>
+        <img src='static\flower1.jpg'>
+
+        {%else%}
+        <h1>You are at Extreme Obesity point.</h1>
+        <img src='static\flower1.jpg'>
+
+        {%endif%}
+
+        <br><br>
+
+        <a href='/'><button>Back to Home Page</button></a>
+
+    </center>
+
+</body>
+
+</html>

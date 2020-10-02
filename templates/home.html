@@ -1,0 +1,28 @@
+<html>
+
+<body bgcolor=#d4a3ae>
+
+    <center>
+
+        <h1> FITNESS BMI DETECTION </h1>
+
+        <img src='static\home.png' alt="home"> <br><br>
+
+        <form method="POST" , action="{{url_for('predict')}}">
+
+            <b>
+                Enter-Height : <input type="number" , name='Height' , placeholder="Height Value"> <br><br>
+                Enter-Weight : <input type="number" , name='Weight' , placeholder="Weight Value"> <br><br>
+            </b>
+
+            <input type="submit" , value='predict!!'>
+
+        </form>
+
+
+
+    </center>
+
+</body>
+
+</html>
